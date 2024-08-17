@@ -174,7 +174,7 @@
 
     <!--  Xóa nhómm người dùng -->
     <div id="delete-User">
-        <div class="modal fade" id="deleteUser" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+     <!--    <div class="modal fade" id="deleteUser" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -196,7 +196,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <!-- <script src="../../Js/admin/sidebar.js?v=<?php echo $version ?>"></script> -->

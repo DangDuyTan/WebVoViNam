@@ -1,12 +1,13 @@
 /* Footer */
+/* Footer */
 .footer {
-    height: 59px;
-    background-color: #fff;
-    border-top: 1px solid #4b545c;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    height: max-content;
+    background-color: #949494;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
 }
+
 
 .footer p:first-child {
     margin-left: 15px;
@@ -14,26 +15,9 @@
 
 .footer p:last-child {
     margin-right: 15px;
+    
 }
-
 .footer p {
-    color: rgb(134, 144, 153);
+    margin: 5px;
 }
 
-strong {
-    color: rgb(134, 144, 153);
-    font-weight: bold;
-}
-
-.footer a{
-    text-decoration: none;
-    color: blue;
-    font-weight: bold;
-}
-
-.overlay {
-    display: none;
-    width: 100vw;
-    height: 100vh;
-    z-index: 1000;
-}

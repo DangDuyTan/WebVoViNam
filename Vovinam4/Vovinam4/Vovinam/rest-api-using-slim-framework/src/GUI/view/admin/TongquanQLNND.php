@@ -93,7 +93,7 @@
     </div>
     <!-- Sửa nhóm người dùng -->
     <div id="editNND-container">
-        <div class="modal fade" id="editSize" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+     <!--    <div class="modal fade" id="editSize" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -119,11 +119,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <!--  Xóa nhómm người dùng -->
     <div id="delete-AccountGroup">
-        <div class="modal fade" id="deleteAccountGroup" tabindex="-1" aria-labelledby="deleteModalLabel"
+     <!--    <div class="modal fade" id="deleteAccountGroup" tabindex="-1" aria-labelledby="deleteModalLabel"
             aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -144,7 +144,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
     <!-- <script src="../../Js/admin/sidebar.js?v=<?php echo $version ?>"></script> -->

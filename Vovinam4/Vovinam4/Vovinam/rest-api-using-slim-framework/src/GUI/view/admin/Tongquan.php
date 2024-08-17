@@ -37,10 +37,28 @@
                 </div>
                 <div class="stat">
                     <div class="item-stat">
-                        <div class="number sub-stat"><span id="number-buy">24</span>
-                            <p>Số sản phẩm đã bán</p>
+                        <div class="number sub-stat"><span id="revenue"></span>
+                            <p>Số lượng nhóm người dùng</p>
                         </div>
-                        <div class="icon-stat "><i class="fa-solid fa-bag-shopping"></i></div>
+                        <div class="icon-stat "><i class="fa-solid fa-users"></i></div>
+                    </div>
+                    <div class="item-stat">
+                        <div class="number sub-stat"><span id="number-buy"></span>
+                            <p>Số lượng tài khoản</p>
+                        </div>
+                        <div class="icon-stat "><i class="fa-solid fa-user"></i></div>
+                    </div>
+                    <div class="item-stat">
+                        <div class="number sub-stat"><span id="number-buy"></span>
+                            <p>Số lượng môn sinh</p>
+                        </div>
+                        <div class="icon-stat "><i class="fa-solid fa-person"></i></div>
+                    </div>
+                    <div class="item-stat">
+                        <div class="number sub-stat"><span id="number-buy"></span>
+                            <p>Số lượng khóa thi</p>
+                        </div>
+                        <div class="icon-stat "><i class="fa-solid fa-warehouse"></i></div>
                     </div>
                     <!-- <div class="item-stat">
                         <div class="number sub-stat"><span>25%</span>
@@ -48,14 +66,9 @@
                         </div>
                         <div class="icon-stat "><i class="fa-solid fa-chart-simple"></i></div>
                     </div> -->
-                    <div class="item-stat">
-                        <div class="number sub-stat"><span id="revenue">185800</span>
-                            <p>Doanh thu</p>
-                        </div>
-                        <div class="icon-stat "><i class="fa-solid fa-chart-pie"></i></div>
-                    </div>
+
                 </div>
-                <div class="filter-chart">
+                <!-- <div class="filter-chart">
                     <div class="filter">
                         <div class="search">
                             <span>Tìm kiếm sản phẩm</span>
@@ -154,21 +167,21 @@
                     <li class="page-item"><a class="page-link">3</a></li>
                     <li class="page-item"><a class="page-link">Next</a></li>
                 </ul>
-            </div>
+            </div> -->
 
 
-            <div class="footer">
-                <?php require('./footer_admin.php'); ?>
+                <div class="footer">
+                    <?php require('./footer_admin.php'); ?>
+                </div>
             </div>
         </div>
-    </div>
-    <script src="../../Js/admin/tongquan.js?v=<?php echo $version ?>"></script>
-    <!-- <script src="../../Js/admin/sidebar.js?v=<?php echo $version ?>"></script> -->
-    <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.8/dist/sweetalert2.all.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+        <script src="../../Js/admin/tongquan.js?v=<?php echo $version ?>"></script>
+        <!-- <script src="../../Js/admin/sidebar.js?v=<?php echo $version ?>"></script> -->
+        <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.8/dist/sweetalert2.all.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>

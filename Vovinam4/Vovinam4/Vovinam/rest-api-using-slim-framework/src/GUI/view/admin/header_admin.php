@@ -1,6 +1,6 @@
 <a href="#!" class="info-header" id="info-header">
     <i class="far fa-user fa-sm"></i>
-    <span>Hi, Dung Tri Nguyen</span>
+    <span>Hi, Users</span>
 </a>
 <div class="menu-header">
     <ul>

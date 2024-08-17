@@ -1,7 +1,15 @@
 .content-page {
     padding: 20px;
+    min-height: fit-content;
+    z-index: 1;
 }
-
+.container-sb {
+    display:flex; 
+    flex-direction:column;
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+    position:static;
+}
 .phan-trang {
     margin-top: 20px;
     text-align: center;

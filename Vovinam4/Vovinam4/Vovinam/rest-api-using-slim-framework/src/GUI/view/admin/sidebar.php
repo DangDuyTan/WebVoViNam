@@ -5,15 +5,11 @@ $current_url = $_SERVER['REQUEST_URI'];
 
 
 <div class="side-bar">
-    <a href="#!" class="brand-link">
-        <img src="../../image/AdminLTELogo.png" alt="">
-        <span>VOVINAM ADMIN</span>
-    </a>
-    <div class="bar-content">
-        <div class="info" id="info">
-            <img src="../../image/avt.jpg" alt="" class="avt">
-            <span class="name">Nguyen Tri Dung</span>
+    <div class="logo" id="logo" href="#!" class="brand-link">
+            <img src="../../image/logo-fascon.png" alt="" class="avt">
+            
         </div>
+    <div class="bar-content">
         <div class="sub-menu">
             <ul class="nav-sb">
                 <li>
@@ -88,26 +84,34 @@ $current_url = $_SERVER['REQUEST_URI'];
                                     class="box-cont"><i class="far fa-circle"></i></span><span>Thêm mới</span></a></li>
                     </ul> -->
                 </li>
-                <li id="chamthi-management-sidebar">
-                    <a href="./GiamKhao.php"
-                        class="<?php echo (strpos($current_url, '/GiamKhao.php') !== false) ? 'active' : ''; ?>"
-                         class="box-cont"><i class="fa-solid fa-money-bill"></i></span>
-                            <span>Danh sách chấm thi</span>
-                            <i class="fas fa-angle-left"></i></a>
+                <li id="bill-management-sidebar"><a href="./GiamKhao.php"
+                        class="<?php echo (strpos($current_url, '/GiamKhao.php') !== false) ? 'active' : ''; ?>"><span
+                            class="box-cont"><i class="fas fa-square-poll-vertical"></i></span><span>Danh sách chấm
+                            thi</span><i class="fas fa-angle-left"></i></a>
+                    <!-- <ul class="ele-sub">
+                        <li><a href="./GiamKhao.php"><span class="box-cont"><i
+                                        class="far fa-circle"></i></span><span>Danh sách</span></a></li>
+                        <li><a href="./bill_detail.php"><span class="box-cont"><i class="far fa-circle"></i></span><span>Trạng thái hóa đơn</span></a></li>
+                    </ul> -->
                 </li>
-                <li id="DSKQ-management-sidebar">
-                    <a href="./DanhSachKetQuaView.php"
-                        class="<?php echo (strpos($current_url, '/DanhSachKetQuaView.php') !== false) ? 'active' : ''; ?>"
-                         class="box-cont"><i class="fa-solid fa-money-bill"></i></span>
-                            <span>Danh sách kết quả thi</span>
-                            <i class="fas fa-angle-left"></i></a>
+                <li id="contact-management-sidebar"><a href="./DanhSachKetQuaView.php"
+                        class="<?php echo (strpos($current_url, '/DanhSachKetQuaView.php') !== false) ? 'active' : ''; ?>"><span
+                            class="box-cont"><i class="fas fa-money-bill"></i></span><span>Danh sách kết quả
+                            thi</span><i class="fas fa-angle-left"></i></a>
+                    <!-- <ul class="ele-sub">
+                        <li><a href="./contact_list.php"><span class="box-cont"><i
+                                        class="far fa-circle"></i></span><span>Danh sách</span></a></li>
+                        <li><a href="./contact_list_noti.php"><span class="box-cont"><i class="far fa-circle"></i></span><span>DS nhận thông báo</span></a></li>
+                    </ul> -->
                 </li>
-                <li id="monsinhDki-management-sidebar">
-                    <a href="./MSinhDkiThi.php"
-                        class="<?php echo (strpos($current_url, '/MSinhDkiThi.php') !== false) ? 'active' : ''; ?>"
-                         class="box-cont"><i class="fa-solid fa-money-bill"></i></span>
-                            <span>Môn Sinh đăng kí thi</span>
-                            <i class="fas fa-angle-left"></i></a>
+                <li id="comment-management-sidebar"><a href="./MSinhDkiThi.php"
+                        class="<?php echo (strpos($current_url, '/MSinhDkiThi.php') !== false) ? 'active' : ''; ?>"><span
+                            class="box-cont"><i class="fas  fa-person-chalkboard"></i></span><span>Môn Sinh đăng kí
+                            thi</span><i class="fas fa-angle-left"></i></a>
+                    <!-- <ul class="ele-sub">
+                        <li><a href="./evaluate_list.php"><span class="box-cont"><i
+                                        class="far fa-circle"></i></span><span>Danh sách</span></a></li>
+                    </ul> -->
                 </li>
             </ul>
         </div>
