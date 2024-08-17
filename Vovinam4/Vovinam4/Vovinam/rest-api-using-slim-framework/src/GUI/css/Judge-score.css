@@ -1,0 +1,402 @@
+.container-sb {
+    display:flex; 
+    flex-direction:column;
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+    position:static;
+}
+.infoText {
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    font-size: medium;
+    height: 50%;
+    font-weight: 700;
+    display:flex;
+    flex-direction: row;
+   
+}
+.thongtin {
+    height:fit-content;
+    margin: 1rem;
+    flex: 1 1 0%;
+}
+
+#XemChiTietKQPD.ctkq {
+    align-items: center;
+    justify-content: center; /* Căn giữa theo chiều ngang và dọc */
+    display: flex; /* Sử dụng Flexbox để căn giữa nội dung bên trong */
+    width: 50%;
+    height: 5%;
+    margin-left: 30rem;
+    margin-top: 4.25rem;
+    position: fixed; /* Sử dụng position fixed để phủ toàn bộ màn hình */
+    top: 0;
+    background-color: rgba(244, 38, 38, 0.4); /* Màu nền mờ */
+    
+}
+#XemChiTietKQPD {
+    display: none; /* Ẩn modal khi không sử dụng */
+    /* Các thuộc tính khác cho modal */
+}
+.detailmodel {
+    background-color: #fefefe;
+    padding: 5px;
+    border: 1px solid #888;
+    width: 100%;
+    margin:auto;
+    
+}
+.modal-header {
+    width:100%;
+}
+.modal-header h5 {
+    float: inline-start;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+}
+table.danhsach {
+    width: 100%;
+    border-width: 1px;
+    background-color: white;
+    border-collapse: collapse;
+    margin-top: 1px;
+    
+}
+
+table.danhsach th,
+table.danhsach td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    font-size: small;
+    font-weight: 400;
+    font-weight: 500;
+}
+
+table.danhsach th {
+    background-color: #f2f2f2;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+table.danhsach tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(215, 2, 2);
+    text-decoration: none;
+    cursor: pointer;
+}
+.content-select {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+}
+.content-select h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.tim-kiem {
+    margin-left: 1rem;
+}
+.sle_op {
+    display:flex;
+    margin: 1rem;
+
+}
+.flex-1 {
+    flex: 1 1 0%;
+}
+.block_text {
+    display :block;
+    color: #3f3f46;
+}
+.sle_op.option {
+    width:100%;
+    padding: 0.25rem ;
+    border-width: 1px solid #ddd;
+    border-radius: 0.25rem;
+}
+.btn_loc {
+    background-color: #5292f8;
+    color : #fff;
+    padding : 0.5rem;
+    border-radius: 0.25rem;
+    width: 75px;
+    margin-left: 1rem;
+}
+.btn_loc:hover{
+    color: #fff;
+    background-color: #3848fd;
+    border-color: #3848fd;
+}
+.content-show {
+    padding: 20px;
+}
+.content-show h2 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+}
+.overflow-x-auto {
+    overflow-x: auto;
+}
+
+.phan-trang {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.phan-trang a {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    background-color: #007bff;
+}
+
+.phan-trang a:hover {
+    background-color: #0056b3;
+}
+
+table.danh-sach {
+    min-width: 100%;
+    border-width: 1px;
+    background-color: white;
+    border-collapse: collapse;
+    margin-top: 1px;
+}
+
+table.danh-sach th,
+table.danh-sach td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: medium;
+}
+
+table.danh-sach th {
+    background-color: #f2f2f2;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+table.danh-sach tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+table.danh-sach a {
+    text-decoration: none;
+}
+table.danh-sach .edit-button {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    color: black;
+    background-color: #fee500;
+    border-color: #fee500;
+    box-shadow: none;
+}
+table.danh-sach .edit-button:hover {
+    color: #1f2d3d;
+    background-color: #e0a800;
+    border-color: #d39e00;
+    
+}
+
+table.danh-sach  .seebutton{
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    color: #fff;
+    background-color: #5c69fa;
+    border-color: #5c69fa;
+    box-shadow: none;
+    text-decoration: none;
+}
+table.danh-sach .seebutton:hover{
+    color: #fff;
+    background-color: #3848fd;
+    border-color: #3848fd;
+}
+
+table.danh-sach a:hover {
+    text-decoration: underline;
+}
+
+/* CSS styles here */
+#activateButton,
+#deactivateButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#activateButton {
+    background-color: #28a745;
+    /* Màu xanh */
+    color: #fff;
+}
+
+#deactivateButton {
+    background-color: #dc3545;
+    /* Màu đỏ */
+    color: #fff;
+}
+
+.form-container {
+    /* width: 400px; */
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+}
+
+.permission-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.phanquyen{
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    box-shadow: none;
+    text-decoration: none;
+   
+}
+.phanquyen:hover{
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    text-decoration: none;
+}
+
+.btn-primary {
+    padding: 8px 10px; /* Giảm padding để nút ngắn lại */
+    width: auto; /* Đặt chiều rộng tự động để nút chỉ rộng đúng phần nội dung */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-secondary{
+    text-decoration: none;
+}
+
+/* css thêm sửa người dùng */
+
+.inputtotal {
+    display: flex;
+
+}
+
+.input1 , .input2 {
+    flex-grow: 1;
+}
+
+.form-group input {
+    border: 1px solid #aca7a7;
+    padding: 10px;
+    border-radius: 3px;
+    /* margin-right: -65px; */
+    width: 94%;
+}
+
+.form-group select {
+    padding: 10px;
+    border: 1px solid #aca7a7;
+    padding: 10px;
+    width: 94%;
+
+}
+#editForm {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 10px;
+}
+.mb-3 {
+    border: 1px solid black;
+    padding: 20px;
+}
+.modal-dialog {
+    width:max-content;
+}
+/* Phân quyền */
+
+table.danh-sach  .Btndkithi{
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    color: black;
+    background-color: #facd5c;
+    border-color: #facd5c;
+    box-shadow: none;
+    text-decoration: none;
+}
+table.danh-sach .Btndkithi:hover{
+    color: black;
+    background-color: #fdb808;
+    border-color: #fdb808;
+}
+.btnDK {
+    padding: 5px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.btnDK:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+
+
